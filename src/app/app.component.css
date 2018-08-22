@@ -1,0 +1,59 @@
+.menu {
+    height: 10vh;
+    background: yellow;
+}
+
+.intro {
+    background: red;
+    height: 100vh;
+}
+
+.intro-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    /* 100 - menu height */
+    height: 80vh;
+} 
+
+#intro-text {
+    flex: 0 0 70vw;
+    text-align: center;
+    min-width: 320px;
+    width: 60vw;
+}
+
+#intro-button button{
+    flex: 1 0 30vw;
+    text-align: center;
+    background-color: lightblue;
+    min-width: 100px;
+    height: 10vh;
+    width: 10vw;
+    margin: 30px;
+} 
+
+.scroll-down-button {
+    height: 10vh;
+    background: lightgreen;
+}
+ 
+.project1 {
+    background: green;
+    height: 75vh;
+}
+
+.project2 {
+    background: blue;
+    height: 75vh;
+}
+
+.project3 {
+    background: purple;
+    height: 75vh;
+}
+
