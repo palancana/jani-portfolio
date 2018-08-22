@@ -1,0 +1,29 @@
+.menu {
+    height: 10vh;
+    background: yellow;
+}
+
+.menu-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    color: red;
+    padding-right: 4vw;
+    font-size: 4vmin;
+}
+
+.name{
+    margin-right: auto;
+    margin-left: 5vw;
+}
+
+
