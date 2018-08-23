@@ -1,0 +1,42 @@
+
+<svg width="275px" height="78px" viewBox="0 0 275 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+        </style>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.8772579%" id="linearGradient-1">
+            <stop stop-color="#F2C83B" offset="0%"></stop>
+            <stop stop-color="#FFC91A" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="267" height="70" rx="8"></rect>
+        <filter x="-2.6%" y="-7.1%" width="105.2%" height="120.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0979393116 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-1.9%" y="-4.3%" width="103.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.97318892   0 0 0 0 0.97318892  0 0 0 0.423828125 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-869.000000, -408.000000)">
+            <g id="home-page-content+" transform="translate(290.000000, 386.000000)">
+                <g id="button-get-in-touch" transform="translate(583.000000, 24.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    </g>
+                    <text id="GET-IN-TOUCH" stroke="#2C2A2A" font-family="Roboto Slab, serif" font-size="20" font-weight="700" letter-spacing="1.79999995" fill="#2C2A2A">
+                        <tspan x="60" y="43">GET IN TOUCH</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
