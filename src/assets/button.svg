@@ -1,10 +1,9 @@
-
 <svg width="275px" height="78px" viewBox="0 0 275 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>
         <style>
-        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
         </style>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="96.8772579%" id="linearGradient-1">
             <stop stop-color="#F2C83B" offset="0%"></stop>
@@ -32,8 +31,8 @@
                         <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
                     </g>
-                    <text id="GET-IN-TOUCH" stroke="#2C2A2A" font-family="Roboto Slab, serif" font-size="20" font-weight="700" letter-spacing="1.79999995" fill="#2C2A2A">
-                        <tspan x="60" y="43">GET IN TOUCH</tspan>
+                    <text id="GET-IN-TOUCH" stroke="#2C2A2A" stroke-width="2" font-family="RobotoSlab-Regular, Roboto Slab" font-size="20" font-weight="normal" letter-spacing="1.8" fill="#2C2A2A">
+                        <tspan x="53" y="43">GET IN TOUCH</tspan>
                     </text>
                 </g>
             </g>

@@ -7,8 +7,7 @@
     position: absolute;
     margin-left: 3vw;
     width: 15vw;
-    height: 15vh;
-    min-width: 150px;
+    min-width: 100px;
 }
 
 .intro-flex {
@@ -18,18 +17,9 @@
     align-content: flex-start;
     padding: 0;
     margin: 0;
-    /* 100 - menu height */
-    height: 80vh;
+    /* 100 - menu height - scroll height */
+    height: 70vh;
 } 
-
-/* Medium and small screens */
-/* @media all and (max-width: 800px) {
-    .intro-flex {
-    flex-direction: column;
-    align-content: center;
-      padding: 0;
-    }
-  } */
 
 #intro-text {
     /* Flex */
@@ -65,10 +55,6 @@
     min-height: 44px;
     height: 7vh;
 }
-
-.scroll-down-button {
-    height: 10vh;
-}
  
 .project1 {
     background: green;
@@ -85,3 +71,13 @@
     height: 90vh;
 }
 
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .intro-flex {
+        flex-direction: column;
+    }
+
+    .intro-button {
+        margin-top: 20px;
+    }
+}
