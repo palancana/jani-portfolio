@@ -3,18 +3,6 @@
     height: 100vh;
 }
 
-.intro-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    /* flex-wrap: wrap; */
-    padding: 0;
-    margin: 0;
-    /* 100 - menu height */
-    height: 80vh;
-} 
-
 .name {
     position: absolute;
     margin-left: 3vw;
@@ -22,6 +10,17 @@
     height: 15vh;
     min-width: 150px;
 }
+
+.intro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0;
+    /* 100 - menu height */
+    height: 80vh;
+} 
 
 /* Medium and small screens */
 /* @media all and (max-width: 800px) {
@@ -34,14 +33,12 @@
 
 #intro-text {
     /* Flex */
-    flex: 0 0 40vw;
-    text-align: center;
-    min-width: 320px;
-    width: 60vw;
+    flex: 0 0 15vw;
+    align-self: auto;
 
     /* Font */
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vmin;
+    font-size: 4vmin;
     color: #FAFAFA;
     text-align: left;
 }
@@ -54,46 +51,37 @@
     #description {
         /* Semi-bold */
         font-weight: 600;
+        /* Force to be on the same line */
+        white-space: nowrap;
     }
 
-#intro-button button{
+.intro-button{
     /* Flex */
-    flex: 0 0 40vw;
-    text-align: center;
-    min-width: 200px;
-    height: 10vh;
-    width: 20vw;
-    margin: 30px;
-
-    /* Font */
-    font-family: 'Bree Serif', serif;
-    color: #2C2A2A;
-    font-size: 2vmin;
-    letter-spacing: 0.05em;
-
-    /* Rectangle: */
-    background-image: linear-gradient(-180deg, #F2C83B 0%, #FFC91A 97%);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
-    border-radius: 8px;
+    flex: 0 0 15vw;
 } 
+
+#button {
+    margin-left: 8vw;
+    min-height: 44px;
+    height: 7vh;
+}
 
 .scroll-down-button {
     height: 10vh;
-    background: none;
 }
  
 .project1 {
     background: green;
-    height: 75vh;
+    height: 90vh;
 }
 
 .project2 {
     background: blue;
-    height: 75vh;
+    height: 90vh;
 }
 
 .project3 {
     background: purple;
-    height: 75vh;
+    height: 90vh;
 }
 
