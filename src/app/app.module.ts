@@ -13,8 +13,8 @@ import { SecondaryMenuComponent } from './components/secondary-menu/secondary-me
 // Routing
 const appRoutes: Routes = [
   // Defaults to main
-  { path: '', redirectTo: '/main', pathMatch: 'full' },
-  { path: 'main', component: IntroComponent },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', component: IntroComponent },
   { path: 'makeup-your-mind', component: MakeupProjectComponent },
   // If route is wrong, go to main
   { path: '**', component: IntroComponent }
@@ -34,6 +34,9 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
+  ],
+  exports: [
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
