@@ -7,6 +7,8 @@ import { ScrollDownComponent } from './/components/scroll-down/scroll-down.compo
 import { ProjectPreviewComponent } from './/components/project-preview/project-preview.component';
 import { IntroComponent } from './pages/intro/intro.component';
 import { MakeupProjectComponent } from './pages/makeup-project/makeup-project.component';
+import { ProjectHeaderComponent } from './components/project-header/project-header.component';
+import { SecondaryMenuComponent } from './components/secondary-menu/secondary-menu.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -25,7 +27,9 @@ const appRoutes: Routes = [
     ScrollDownComponent,
     ProjectPreviewComponent,
     IntroComponent,
-    MakeupProjectComponent
+    MakeupProjectComponent,
+    ProjectHeaderComponent,
+    SecondaryMenuComponent
   ],
   imports: [
     BrowserModule,
