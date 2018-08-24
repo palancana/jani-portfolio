@@ -9,6 +9,8 @@ import { IntroComponent } from './pages/intro/intro.component';
 import { MakeupProjectComponent } from './pages/makeup-project/makeup-project.component';
 import { ProjectHeaderComponent } from './components/project-header/project-header.component';
 import { SecondaryMenuComponent } from './components/secondary-menu/secondary-menu.component';
+import { GlowrProjectComponent } from './pages/glowr-project/glowr-project.component';
+import { AbcProjectComponent } from './pages/abc-project/abc-project.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -16,6 +18,8 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: '', component: IntroComponent },
   { path: 'makeup-your-mind', component: MakeupProjectComponent },
+  { path: 'glowr', component: GlowrProjectComponent },
+  { path: 'abc-groceries', component: AbcProjectComponent },
   // If route is wrong, go to main
   { path: '**', component: IntroComponent }
 ];
@@ -29,7 +33,9 @@ const appRoutes: Routes = [
     IntroComponent,
     MakeupProjectComponent,
     ProjectHeaderComponent,
-    SecondaryMenuComponent
+    SecondaryMenuComponent,
+    GlowrProjectComponent,
+    AbcProjectComponent
   ],
   imports: [
     BrowserModule,
