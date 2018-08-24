@@ -65,4 +65,8 @@
     .intro-button {
         margin-top: 20px;
     }
+
+    #button {
+        margin-left: 0;
+    }
 }
