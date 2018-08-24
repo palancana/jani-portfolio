@@ -1,0 +1,71 @@
+.project {
+    background: #EBEDFF;
+    height: 90vh;
+}
+
+.project-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0;
+    height: inherit;
+} 
+
+#project-text {
+    /* Flex */
+    flex: 0 0 25vw;
+    align-self: auto;
+    margin-left: 10vw;
+
+    /* Font */
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(10px + 4vmin);
+    color: #071045;
+    letter-spacing: 0.2em;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+    #name {
+        /* Bold */
+        font-weight: 700;
+        /* Force it to use a word per line */
+        display: table-caption;
+    }
+
+.project-image{
+    /* Flex */
+    flex: 1 0 20vw;
+} 
+
+.project-image img {
+    width: 100%;
+}
+
+#button {
+    min-height: 44px;
+    height: 7vh;
+}
+ 
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .project-flex {
+        flex-direction: column-reverse;
+    }
+
+    #project-text {
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .project-image {
+        flex: 0 0 auto;
+    }
+
+    .project-image img {
+        max-width: 320px;
+    }
+}
