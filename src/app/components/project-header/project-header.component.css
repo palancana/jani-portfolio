@@ -3,6 +3,13 @@
     height: 50vh;
 }
 
+.name {
+    position: absolute;
+    margin-left: 3vw;
+    width: 15vw;
+    min-width: 100px;
+}
+
 .project-flex {
     /* Flex */
     display: flex;
