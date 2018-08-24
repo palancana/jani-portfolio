@@ -55,18 +55,6 @@
     min-height: 44px;
     height: 7vh;
 }
- 
-
-
-.project2 {
-    background: blue;
-    height: 90vh;
-}
-
-.project3 {
-    background: purple;
-    height: 90vh;
-}
 
 /* Medium and small screen sizes */
 @media all and (max-width: 600px) {
