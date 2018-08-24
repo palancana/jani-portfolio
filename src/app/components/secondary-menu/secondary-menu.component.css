@@ -1,0 +1,34 @@
+.menu {
+    height: 10vh;
+}
+
+.menu-container {
+    /* Flex */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+
+    /* List */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container li a {
+    padding-right: 4vw;
+    text-decoration: none;
+
+    /* Font */
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 2vmin; */
+    font-size:calc(5px + 1.3vmin);
+
+    /* Bold */
+    font-weight: 700;
+    /* Color */
+    color: #26293E;
+}
+
+

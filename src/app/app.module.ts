@@ -7,13 +7,19 @@ import { ScrollDownComponent } from './/components/scroll-down/scroll-down.compo
 import { ProjectPreviewComponent } from './/components/project-preview/project-preview.component';
 import { IntroComponent } from './pages/intro/intro.component';
 import { MakeupProjectComponent } from './pages/makeup-project/makeup-project.component';
+import { ProjectHeaderComponent } from './components/project-header/project-header.component';
+import { SecondaryMenuComponent } from './components/secondary-menu/secondary-menu.component';
+import { GlowrProjectComponent } from './pages/glowr-project/glowr-project.component';
+import { AbcProjectComponent } from './pages/abc-project/abc-project.component';
 
 // Routing
 const appRoutes: Routes = [
   // Defaults to main
-  { path: '', redirectTo: '/main', pathMatch: 'full' },
-  { path: 'main', component: IntroComponent },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', component: IntroComponent },
   { path: 'makeup-your-mind', component: MakeupProjectComponent },
+  { path: 'glowr', component: GlowrProjectComponent },
+  { path: 'abc-groceries', component: AbcProjectComponent },
   // If route is wrong, go to main
   { path: '**', component: IntroComponent }
 ];
@@ -25,11 +31,18 @@ const appRoutes: Routes = [
     ScrollDownComponent,
     ProjectPreviewComponent,
     IntroComponent,
-    MakeupProjectComponent
+    MakeupProjectComponent,
+    ProjectHeaderComponent,
+    SecondaryMenuComponent,
+    GlowrProjectComponent,
+    AbcProjectComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
+  ],
+  exports: [
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
