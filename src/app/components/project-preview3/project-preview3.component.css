@@ -1,5 +1,5 @@
 .project {
-    background-image: linear-gradient(180deg, #F2ECFF 0%, #EDE6FF 100%);
+    background-image: linear-gradient(-180deg, #E1F7E7 0%, #CBF2D8 100%);
     height: 90vh;
 }
 
@@ -44,6 +44,9 @@
 
 .project-image img {
     width: 100%;
+    max-height: 50vw;
+    max-width: 50vw;
+    margin-left: 3vw;
 }
 
 #button {
@@ -69,6 +72,7 @@
 
     .project-image img {
         max-width: 320px;
+        max-height: 320px;
     }
 
 

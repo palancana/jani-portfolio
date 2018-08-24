@@ -30,7 +30,7 @@
                 <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
                 <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
             </g>
-            <text id="SEE-CASE-STUDY" font-family="RobotoSlab-Bold, Roboto Slab" font-size="20" font-weight="bold" letter-spacing="1.79999995" fill="#F2EFFE">
+            <text id="SEE-CASE-STUDY" font-family="Roboto-Slab, Roboto Slab" font-size="20" font-weight="700" letter-spacing="1.79999995" fill="#F2EFFE">
                 <tspan x="198" y="1554">SEE CASE STUDY</tspan>
             </text>
         </g>

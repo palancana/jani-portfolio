@@ -11,6 +11,8 @@ import { ProjectHeaderComponent } from './components/project-header/project-head
 import { SecondaryMenuComponent } from './components/secondary-menu/secondary-menu.component';
 import { GlowrProjectComponent } from './pages/glowr-project/glowr-project.component';
 import { AbcProjectComponent } from './pages/abc-project/abc-project.component';
+import { ProjectPreview2Component } from './components/project-preview2/project-preview2.component';
+import { ProjectPreview3Component } from './components/project-preview3/project-preview3.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -35,7 +37,9 @@ const appRoutes: Routes = [
     ProjectHeaderComponent,
     SecondaryMenuComponent,
     GlowrProjectComponent,
-    AbcProjectComponent
+    AbcProjectComponent,
+    ProjectPreview2Component,
+    ProjectPreview3Component
   ],
   imports: [
     BrowserModule,
