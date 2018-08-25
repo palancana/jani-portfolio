@@ -5,3 +5,102 @@
 #introduction {
     margin-bottom: 10vw;
 }
+
+.title {
+    font-family: 'Roboto Slab';
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(15px + 1vmin);
+    letter-spacing: 0.3em;
+}
+
+.title mark {
+    background-color: #F78888;
+    color: #454141;
+    padding: 3px;
+}
+
+.subtitle {
+    font-family: 'Roboto Slab';
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(13px + 0.85vmin);
+    letter-spacing: 0.2em;
+}
+
+.subtitle mark {
+    background-color: #65C7C2;
+    color: #454141;
+}
+
+.body {
+    font-family: 'Montserrat';
+    /* Semi-bold */
+    font-weight: 600;
+    font-size: calc(10px + 0.6vmin);
+    color: #454545;
+    letter-spacing: -0.4px;
+    line-height: 2.2em;
+}
+
+.body b {
+    /* Extra-bold */
+    font-weight: 800;
+}
+
+.quote {
+    position: relative;
+    margin: 4vh 6vw;
+    /* Font */
+    font-family: 'Montserrat';
+    /* Extra-bold */
+    font-weight: 800;
+    font-size: calc(10px + 0.6vmin);
+    color: #454545;
+    letter-spacing: -0.4px;
+    text-align: center;
+    line-height: 2.2em;
+}
+
+.quote p {
+    padding: 2vw;
+}
+
+.quotes {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 10vw;
+    max-width: 5em;
+}
+
+.flex-list {
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.flex-list p {
+    padding: 2vw;
+}
+
+.flex-item {
+    position: relative;
+    flex: 0 0 25vw;
+    min-width: 260px;
+    align-self: auto;
+}
+
+.number {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 10vw;
+    max-width: 5em;
+}
+
