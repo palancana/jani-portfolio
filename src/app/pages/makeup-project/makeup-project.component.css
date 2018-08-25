@@ -31,6 +31,7 @@
 .subtitle mark {
     background-color: #65C7C2;
     color: #454141;
+    padding: 2px;
 }
 
 .body {
@@ -103,4 +104,25 @@
     width: 10vw;
     max-width: 5em;
 }
+
+.full-img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+ol span{
+    /* Extra-bold */
+    font-weight: 800;
+    font-size: calc(12px + 0.6vmin);
+}
+
+.invision-container {
+
+}
+
+.invision {
+    text-align:center;
+    width:100%;
+}
+
 
