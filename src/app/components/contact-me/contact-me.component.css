@@ -1,0 +1,64 @@
+#contact-me {
+    background: #FFC91A;
+    height: 25vh;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.text {
+    margin-top: 5vh;
+    flex: 0 0 40vw;
+}
+
+.social-icons {
+    margin-top: 10vh;
+    flex: 0 0 15vw;
+    display: flex;
+
+}
+
+.social-icons img {
+    height: 5vw;
+    min-height: 44px;
+    max-height: 60px;
+    padding: 0.2em;
+}
+
+p {
+    font-family: 'Roboto Slab';
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(5px + 3vmin);
+    color: #2C2A2A;
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+}
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    #flex-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text {
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .social-icons {
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .social-icons img {
+        max-width: 320px;
+    }
+
+
+}
