@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+
 
 @Component({
   selector: 'app-secondary-menu',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondaryMenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   ngOnInit() {
+  }
+
+  scrollTo(anchor: string) {
+    this.scroller.scrollToPosition([1000000000, 1000000000]);
   }
 
 }

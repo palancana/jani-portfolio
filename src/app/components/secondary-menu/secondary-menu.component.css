@@ -31,4 +31,12 @@
     color: #26293E;
 }
 
+:host-context(.about-theme) .menu-container li a {
+    color: #FAFAFA;
+}
+
+:host-context(.about-theme) #about {
+    border-bottom: 0.2em solid #FFC91A;
+}
+
 

@@ -14,6 +14,7 @@ import { AbcProjectComponent } from './pages/abc-project/abc-project.component';
 import { ProjectPreview2Component } from './components/project-preview2/project-preview2.component';
 import { ProjectPreview3Component } from './components/project-preview3/project-preview3.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { AboutComponent } from './pages/about/about.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   { path: 'makeup-your-mind', component: MakeupProjectComponent },
   { path: 'glowr', component: GlowrProjectComponent },
   { path: 'abc-groceries', component: AbcProjectComponent },
+  { path: 'about', component: AboutComponent },
   // If route is wrong, go to main
   { path: '**', component: IntroComponent }
 ];
@@ -41,7 +43,8 @@ const appRoutes: Routes = [
     AbcProjectComponent,
     ProjectPreview2Component,
     ProjectPreview3Component,
-    ContactMeComponent
+    ContactMeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
