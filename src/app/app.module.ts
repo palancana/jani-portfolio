@@ -13,6 +13,7 @@ import { GlowrProjectComponent } from './pages/glowr-project/glowr-project.compo
 import { AbcProjectComponent } from './pages/abc-project/abc-project.component';
 import { ProjectPreview2Component } from './components/project-preview2/project-preview2.component';
 import { ProjectPreview3Component } from './components/project-preview3/project-preview3.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     GlowrProjectComponent,
     AbcProjectComponent,
     ProjectPreview2Component,
-    ProjectPreview3Component
+    ProjectPreview3Component,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
