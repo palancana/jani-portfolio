@@ -1,6 +1,7 @@
 .project {
     background-image: linear-gradient(-180deg, #ECEEFF 0%, #EBEDFF 100%);
     height: 90vh;
+    border-bottom: 0.2em solid #6DA895;
 }
 
 .project-flex {
