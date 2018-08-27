@@ -12,12 +12,14 @@
     font-weight: 700;
     font-size: calc(15px + 1vmin);
     letter-spacing: 0.3em;
+    margin-bottom: 1.5em;
 }
 
 .title mark {
     background-color: #F78888;
     color: #454141;
-    padding: 3px;
+    /* padding: 3px; */
+    padding: 3px 8px 3px 16px;
 }
 
 .subtitle {
@@ -26,12 +28,14 @@
     font-weight: 700;
     font-size: calc(13px + 0.85vmin);
     letter-spacing: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 .subtitle mark {
     background-color: #65C7C2;
     color: #454141;
-    padding: 2px;
+    padding: 2px 4px 2px 8px;
 }
 
 .body {
