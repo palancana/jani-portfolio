@@ -1,9 +1,9 @@
 #article {
-    margin: 10vw;
+    margin: 4.5em 10vw 10vw 10vw;
 }
 
 #introduction {
-    margin-bottom: 10vw;
+    margin-bottom: 5vh;
 }
 
 .title {
@@ -12,7 +12,8 @@
     font-weight: 700;
     font-size: calc(15px + 1vmin);
     letter-spacing: 0.3em;
-    margin-bottom: 1.5em;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
 }
 
 .title mark {
@@ -28,8 +29,9 @@
     font-weight: 700;
     font-size: calc(13px + 0.85vmin);
     letter-spacing: 0.2em;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+
 }
 
 .subtitle mark {
@@ -121,12 +123,24 @@ ol span{
 }
 
 .invision-container {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .invision {
-    text-align:center;
-    width:100%;
+    /* text-align: center; */
+    align-self: center;
+    /* width:100%; */
+    transform: scale(1);
+}
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .invision {
+        display: none;
+    }
 }
 
 
