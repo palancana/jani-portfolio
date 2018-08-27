@@ -17,7 +17,10 @@
 }
 
 .menu-container li a {
-    padding-right: 4vw;
+    /* This makes the size of the bottom border bigger than text
+        but not so much */
+    padding: 0 1vw;
+    margin: 0 1vw;
     text-decoration: none;
 
     /* Font */
@@ -36,7 +39,11 @@
 }
 
 :host-context(.about-theme) #about {
-    border-bottom: 0.2em solid #FFC91A;
+    border-bottom: 0.15em solid #FFC91A;
+}
+
+:host-context(.myprojects-theme) #myprojects {
+    border-bottom: 0.15em solid #FFC91A;
 }
 
 

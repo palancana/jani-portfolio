@@ -1,9 +1,9 @@
 #article {
-    margin: 10vw;
+    margin: 4.5em 10vw 10vw 10vw;
 }
 
 #introduction {
-    margin-bottom: 10vw;
+    margin-bottom: 5vh;
 }
 
 .title {
@@ -12,12 +12,15 @@
     font-weight: 700;
     font-size: calc(15px + 1vmin);
     letter-spacing: 0.3em;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
 }
 
 .title mark {
     background-color: #F78888;
     color: #454141;
-    padding: 3px;
+    /* padding: 3px; */
+    padding: 3px 8px 3px 16px;
 }
 
 .subtitle {
@@ -26,12 +29,15 @@
     font-weight: 700;
     font-size: calc(13px + 0.85vmin);
     letter-spacing: 0.2em;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+
 }
 
 .subtitle mark {
     background-color: #65C7C2;
     color: #454141;
-    padding: 2px;
+    padding: 2px 4px 2px 8px;
 }
 
 .body {
@@ -117,12 +123,24 @@ ol span{
 }
 
 .invision-container {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .invision {
-    text-align:center;
-    width:100%;
+    /* text-align: center; */
+    align-self: center;
+    /* width:100%; */
+    transform: scale(1);
+}
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .invision {
+        display: none;
+    }
 }
 
 
