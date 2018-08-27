@@ -52,8 +52,7 @@
 
 }
 
-.cta-button{
-  /* Rectangle: */
+.yellow-button{
   background-image: linear-gradient(-180deg, #F2C83B 0%, #FFC91A 97%);
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.65), inset 0 1px 1px 0 rgba(255,248,248,0.42);
   border: none;
@@ -61,23 +60,22 @@
   width: 13em;
   height: 3em;
 
-  /* GET IN TOUCH: */
-  font-family: RobotoSlab-Bold;
-  font-size: 20px;
+  font-family: 'Roboto Slab';
+  /* Bold */
+  font-weight: 700;
+  font-size:calc(10px + 0.5vmin);
   color: #2C2A2A;
   letter-spacing: 1.8px;
   text-align: center;
 
 }
 
-.cta-button:hover {
-  /* Rectangle Copy 4: */
+.yellow-button:hover {
 background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
 
 }
 
-.cta-button:active {
-  /* Rectangle Copy 4: */
+.yellow-button:active {
   background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
   border-radius: 8px;
@@ -92,9 +90,13 @@ background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
 
     .intro-button {
         margin-top: 20px;
+        padding: 0;
     }
 
-    #button {
-        margin-left: 0;
+    .yellow-button {
+        width: 60vw;
+        height: 7vh;
+        max-width: 300px;
+        min-height: 44px;
     }
 }
