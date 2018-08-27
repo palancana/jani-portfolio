@@ -42,4 +42,8 @@
     border-bottom: 0.15em solid #FFC91A;
 }
 
+:host-context(.myprojects-theme) #myprojects {
+    border-bottom: 0.15em solid #FFC91A;
+}
+
 
