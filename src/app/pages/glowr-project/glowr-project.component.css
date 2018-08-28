@@ -40,7 +40,7 @@
     padding: 2px 4px 2px 8px;
 }
 
-.body {
+.body, .citation, .full-citation {
     font-family: 'Montserrat';
     /* Semi-bold */
     font-weight: 600;
@@ -48,6 +48,21 @@
     color: #454545;
     letter-spacing: -0.4px;
     line-height: 2.2em;
+}
+
+.citation, .full-citation {
+    /* Extra-bold */
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.full-citation {
+    text-align: center;
+}
+
+#author {
+    text-align: right;
 }
 
 .body b {
@@ -95,11 +110,15 @@
     padding: 2vw;
 }
 
-.flex-item {
+.flex-item, .flex-citation {
     position: relative;
     flex: 0 0 25vw;
     min-width: 260px;
     align-self: auto;
+}
+
+.flex-citation {
+    align-self: center;
 }
 
 .number {
@@ -116,10 +135,17 @@
     margin-bottom: 2em;
 }
 
+.partial-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
 .two-image-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     align-content: center; 
 }
@@ -127,7 +153,7 @@
 
 .two-image-container img {
     margin: 2em 0;
-    width: 100%;
+    width: 95%;
 }
 
 ol span{
@@ -158,6 +184,8 @@ ol span{
 
     .two-image-container {
         flex-direction: column;
+        justify-content: center;
+
     }
 
 }
