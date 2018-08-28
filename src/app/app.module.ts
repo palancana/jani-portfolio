@@ -15,6 +15,7 @@ import { ProjectPreview2Component } from './components/project-preview2/project-
 import { ProjectPreview3Component } from './components/project-preview3/project-preview3.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { AboutComponent } from './pages/about/about.component';
+import { InProgressComponent } from './components/in-progress/in-progress.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
     ProjectPreview2Component,
     ProjectPreview3Component,
     ContactMeComponent,
-    AboutComponent
+    AboutComponent,
+    InProgressComponent
   ],
   imports: [
     BrowserModule,

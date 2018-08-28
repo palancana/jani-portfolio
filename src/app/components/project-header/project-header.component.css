@@ -55,6 +55,10 @@
     max-width: 70vh;
 }
 
+#abc {
+    max-width: 40vh;
+}
+
 :host-context(.makeup-theme) #glowr {
     display: none;
     visibility: hidden;

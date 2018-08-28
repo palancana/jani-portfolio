@@ -116,6 +116,27 @@
     margin-bottom: 2em;
 }
 
+.partial-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+
+.two-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center; 
+}
+
+.two-image-container img {
+    margin: 2em 0;
+    width: 95%;
+}
+
 ol span{
     /* Extra-bold */
     font-weight: 800;
@@ -141,6 +162,11 @@ ol span{
     .invision {
         display: none;
     }
-}
 
+    .two-image-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
 

@@ -1,0 +1,15 @@
+.body {
+    font-family: 'Montserrat';
+    /* Semi-bold */
+    font-weight: 600;
+    font-size: calc(10px + 0.6vmin);
+    color: #454545;
+    letter-spacing: -0.4px;
+    line-height: 2.2em;
+    text-align: center;
+}
+
+.body b {
+    /* Extra-bold */
+    font-weight: 800;
+}
