@@ -48,9 +48,37 @@
     width: 100%;
 }
 
-#button {
-    min-height: 44px;
-    height: 7vh;
+.project-button{
+    /* Flex */
+    flex: 0 0 15vw;
+}
+
+.blue-button{
+  background-image: linear-gradient(0deg, #5F1EFF 0%, #6E57F2 97%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
+  border: none;
+  border-radius: 8px;
+  width: 13em;
+  height: 3em;
+
+  font-family: 'Roboto Slab';
+  /* Bold */
+  font-weight: 700;
+  font-size:calc(10px + 0.5vmin);
+  color: #F2EFFE;
+  letter-spacing: 1.8px;
+  /* text-align: center; */
+
+}
+
+.blue-button:hover {
+  background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
+
+}
+
+.blue-button:active {
+  background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
 }
  
 
