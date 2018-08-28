@@ -17,8 +17,8 @@
 }
 
 .title mark {
-    background-color: #F78888;
-    color: #454141;
+    background-color: #6389DA;
+    color: #F6F6F6;
     /* padding: 3px; */
     padding: 3px 8px 3px 16px;
 }
@@ -35,7 +35,7 @@
 }
 
 .subtitle mark {
-    background-color: #65C7C2;
+    background-color: #FFC72B;
     color: #454141;
     padding: 2px 4px 2px 8px;
 }
@@ -116,6 +116,20 @@
     margin-bottom: 2em;
 }
 
+.two-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center; 
+}
+
+
+.two-image-container img {
+    margin: 2em 0;
+    width: 100%;
+}
+
 ol span{
     /* Extra-bold */
     font-weight: 800;
@@ -141,6 +155,11 @@ ol span{
     .invision {
         display: none;
     }
+
+    .two-image-container {
+        flex-direction: column;
+    }
+
 }
 
 
