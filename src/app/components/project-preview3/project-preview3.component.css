@@ -70,12 +70,12 @@
 }
 
 .blue-button:hover {
-background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
+    background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
 
 }
 
 .blue-button:active {
-  background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
+    background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
 }
  
