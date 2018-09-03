@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
+
 
 @Component({
   selector: 'app-makeup-project',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MakeupProjectComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   ngOnInit() {
+  }
+
+  scrollTo(anchor: string) {
+    this.scroller.scrollToAnchor(anchor);
   }
 
 }

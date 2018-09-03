@@ -6,7 +6,7 @@
     margin-bottom: 5vh;
 }
 
-.video-container {
+#video-container {
     display: flex;
     justify-content: center;
     align-items: center;
