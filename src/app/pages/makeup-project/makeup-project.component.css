@@ -57,8 +57,8 @@ video {
 
 .body {
     font-family: 'Montserrat';
-    /* Semi-bold */
-    font-weight: 600;
+    /* Regular */
+    font-weight: 400;
     font-size: calc(10px + 0.6vmin);
     color: #454545;
     letter-spacing: -0.4px;
@@ -66,8 +66,8 @@ video {
 }
 
 .body b {
-    /* Extra-bold */
-    font-weight: 800;
+    /* Bold */
+    font-weight: 600;
 }
 
 .quote {
