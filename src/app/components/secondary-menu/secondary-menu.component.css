@@ -34,6 +34,10 @@
     color: #26293E;
 }
 
+#last-item {
+    padding-right: 2vw;
+}
+
 :host-context(.about-theme) .menu-container li a {
     color: #FAFAFA;
 }
