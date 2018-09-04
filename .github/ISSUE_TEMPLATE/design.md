@@ -16,3 +16,5 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context about the feature request here. Screenshots are encouraged. You can also use the Preview app from your Mac to mark or point the places with the issue, if needed.
+
+_**Remember to add the design label to the issue and to delete this line of text.**_
