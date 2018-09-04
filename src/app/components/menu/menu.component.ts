@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ViewportScroller } from '@angular/common';
 
 
 @Component({
@@ -9,13 +8,13 @@ import { ViewportScroller } from '@angular/common';
 })
 export class MenuComponent implements OnInit {
 
-  constructor(private scroller: ViewportScroller) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
   scrollTo(anchor: string) {
-    this.scroller.scrollToAnchor(anchor);
+    document.querySelector('#' + anchor).scrollIntoView({behavior: 'smooth', block: 'start'});
   }
 
 }
