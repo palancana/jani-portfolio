@@ -58,3 +58,11 @@ div p{
       transform: translateY(-8px);
     }
   }
+
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .scroll-down-button {
+        height: 5vh;
+    }
+}
