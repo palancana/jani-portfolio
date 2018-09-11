@@ -16,6 +16,7 @@ import { ProjectPreview3Component } from './components/project-preview3/project-
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { AboutComponent } from './pages/about/about.component';
 import { InProgressComponent } from './components/in-progress/in-progress.component';
+import { HamburgerMenuComponent } from './components/hamburger-menu/hamburger-menu.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -46,7 +47,8 @@ const appRoutes: Routes = [
     ProjectPreview3Component,
     ContactMeComponent,
     AboutComponent,
-    InProgressComponent
+    InProgressComponent,
+    HamburgerMenuComponent
   ],
   imports: [
     BrowserModule,
