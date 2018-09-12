@@ -4,41 +4,23 @@
     /* Flex */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     align-content: center;
+    cursor: pointer;
 }
 
-#link {
-    display: block;
-    text-decoration: none;
+.flex-item {
+    flex: 0 0 50px;
 }
 
-div p{
-    margin: 0;
+#arrow {
+    width: 9vmin;
+    min-width: 60px;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
 }
 
-    #mouse {
-        width: 5vmin;
-        min-width: 30px;
-    }
-
-    #arrow {
-        width: 2.5vmin;
-        min-width: 15px;
-        animation: bounce 1s infinite alternate;
-        -webkit-animation: bounce 1s infinite alternate;
-    }
-
-    #text {
-        /* Font */
-        font-family: Montserrat;
-        /* Bold */
-        font-weight: 700;
-        /* font-size: 2vmin; */
-        font-size:calc(10px + 0.5vmin);
-        color: #FAFAFA;
-    }
 
 /* Bounce animation for arrow */
 
@@ -63,6 +45,6 @@ div p{
 /* Medium and small screen sizes */
 @media all and (max-width: 600px) {
     .scroll-down-button {
-        height: 5vh;
+        height: 10vh;
     }
 }
