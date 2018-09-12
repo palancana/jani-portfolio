@@ -1,5 +1,5 @@
 .intro {
-    background: linear-gradient(135deg, #7F17FF 0%, #5121FF 100%);
+    background-image: linear-gradient(135deg, #9717FF 0%, #5121FF 100%);
     height: 100vh;
     min-height: 300px;
 }
@@ -11,104 +11,31 @@
     min-width: 100px;
 }
 
-/* .sticky-menu {
-    z-index: 3;
-    position: -webkit-sticky;  
-    position: sticky;
-    top: 0;
-    background:rgba(255,255,255,0.0);
-} */
-
-
 .intro-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: flex-start;
+    align-content: center;
     padding: 0;
     margin: 0;
     /* 100 - menu height - scroll height */
     height: 70vh;
     min-height: 140px;
+    line-height: 1.3;
 }
 
 #intro-text {
     /* Flex */
-    flex: 0 0 15vw;
+    flex: 0 0 60vw;
     align-self: auto;
-
     /* Font */
     font-family: 'Montserrat', sans-serif;
+    /* Bold */
+    font-weight: 700;
     /* font-size: 4vmin; */
-    font-size:calc(10px + 2vmin);
+    font-size: calc(30px + 3vw);
     color: #FAFAFA;
     text-align: left;
-}
-
-    #hi {
-        /* Bold */
-        font-weight: 700;
-    }
-
-    #description {
-        /* Semi-bold */
-        font-weight: 600;
-        /* Force to be on the same line */
-        white-space: nowrap;
-    }
-
-.intro-button{
-    /* Flex */
-    flex: 0 0 15vw;
-    padding-left: 5em;
-
-}
-
-.yellow-button{
-  background-image: linear-gradient(-180deg, #F2C83B 0%, #FFC91A 97%);
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.65), inset 0 1px 1px 0 rgba(255,248,248,0.42);
-  border: none;
-  border-radius: 8px;
-  width: 13em;
-  height: 3em;
-
-  font-family: 'Roboto Slab';
-  /* Bold */
-  font-weight: 700;
-  font-size:calc(10px + 0.5vmin);
-  color: #2C2A2A;
-  letter-spacing: 1.8px;
-  text-align: center;
-
-}
-
-.yellow-button:hover {
-background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
-
-}
-
-.yellow-button:active {
-  background-image: linear-gradient(-180deg, #F2D73A 0%, #FFD754 97%);
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
-  border-radius: 8px;
-}
-
-
-/* Medium and small screen sizes */
-@media all and (max-width: 600px) {
-    .intro-flex {
-        flex-direction: column;
-    }
-
-    .intro-button {
-        margin-top: 20px;
-        padding: 0;
-    }
-
-    .yellow-button {
-        width: 60vw;
-        height: 7vh;
-        max-width: 300px;
-        min-height: 44px;
-    }
+    /* Force to be on the same line */
+    white-space: nowrap;
 }

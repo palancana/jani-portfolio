@@ -19,6 +19,7 @@
 .menu-container li a {
     padding-right: 4vw;
     text-decoration: none;
+    cursor: pointer;
 
     /* Font */
     font-family: 'Montserrat', sans-serif;
