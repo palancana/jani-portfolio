@@ -1,0 +1,90 @@
+.project {
+    background-image: linear-gradient(180deg, #F2ECFF 0%, #EDE6FF 100%);
+    height: 50vh;
+}
+
+.page-name {
+    position: absolute;
+    margin-left: 3vw;
+    width: 15vw;
+    min-width: 100px;
+}
+
+.project-flex {
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+} 
+
+#project-text {
+    /* Flex */
+    flex: 0 0 25vw;
+    align-self: auto;
+    margin-left: 10vw;
+
+    /* Font */
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(10px + 3vmin);
+    color: #071045;
+    letter-spacing: 0.2em;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+    .name {
+        /* Bold */
+        font-weight: 700;
+        /* Force it to use a word per line */
+        display: table-caption;
+    }
+
+.project-image{
+    /* Flex */
+    flex: 1 0 20vw;
+} 
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 70vh;
+}
+
+#abc {
+    max-width: 40vh;
+}
+
+:host-context(.makeup-theme) #glowr {
+    display: none;
+    visibility: hidden;
+}
+
+:host-context(.makeup-theme) #abc{
+    display: none;
+    visibility: hidden;
+}
+
+:host-context(.glowr-theme) #makeup{
+    display: none;
+    visibility: hidden;
+}
+
+:host-context(.glowr-theme) #abc{
+    display: none;
+    visibility: hidden;
+}
+
+:host-context(.abc-theme) #makeup{
+    display: none;
+    visibility: hidden;
+}
+
+:host-context(.abc-theme) #glowr{
+    display: none;
+    visibility: hidden;
+}

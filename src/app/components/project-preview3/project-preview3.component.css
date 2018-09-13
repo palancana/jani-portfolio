@@ -1,0 +1,115 @@
+.project {
+    background: #FBEED5;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.40);
+    height: 70vh;
+    margin: 2vh 4vw 6vh 4vw;
+}
+
+.project-flex {
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    padding: 0;
+    margin: 0;
+    height: inherit;
+} 
+
+#project-text {
+    /* Flex */
+    flex: 0 0 25vw;
+    align-self: auto;
+    margin-left: 10vw;
+
+    /* Font */
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(10px + 4vmin);
+    color: #071045;
+    letter-spacing: 0.2em;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+    #name {
+        /* Bold */
+        font-weight: 700;
+    }
+
+.project-image{
+    /* Flex */
+    flex: 1 0 20vw;
+} 
+
+.project-image img {
+    /* height: 60vmin;
+    max-height: 50vh;
+    margin-left: 3vw; */
+    width: 100%;
+
+}
+
+.project-button{
+    /* Flex */
+    flex: 0 0 15vw;
+}
+
+.blue-button{
+  background-image: linear-gradient(0deg, #5F1EFF 0%, #6E57F2 97%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
+  border: none;
+  border-radius: 8px;
+  width: 13em;
+  height: 3em;
+
+  font-family: 'Roboto Slab';
+  /* Bold */
+  font-weight: 700;
+  font-size:calc(10px + 0.5vmin);
+  color: #F2EFFE;
+  letter-spacing: 1.8px;
+}
+
+.blue-button:hover {
+    background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
+
+}
+
+.blue-button:active {
+    background-image: linear-gradient(0deg, #9100FF 0%, #A15EFF 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10), inset 0 1px 1px 0 rgba(255,248,248,0.42);
+}
+ 
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .project-flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #project-text {
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .project-image {
+        flex: 0 0 auto;
+    }
+
+    .project-image img {
+        max-width: 280px;
+        /* max-height: 320px; */
+        
+    }
+
+    .project-button{
+        /* Flex */
+        flex: 0 0 auto;
+    }
+
+
+}

@@ -1,0 +1,76 @@
+#contact-me {
+    background: #FFC91A;
+    height: 17vh;
+    min-height: 100px;
+}
+
+#flex-container {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    padding-left: 4vw;
+    padding-top: 1em;
+    position: absolute;
+}
+
+.social-icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.social-icons img {
+    height: 5vw;
+    min-height: 44px;
+    max-height: 55px;
+    padding: 0.2em;
+}
+
+p {
+    margin: 0;
+    font-family: 'Roboto Slab';
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(5px + 3vmin);
+    color: #2C2A2A;
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+}
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    #flex-container {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text {
+        position: unset;
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text p {
+        margin: 10px 0;
+    }
+
+    .social-icons {
+        flex: 0 0 auto;
+        margin: 0;
+        height: auto;
+    }
+
+    .social-icons img {
+        max-width: 320px;
+    }
+
+
+}

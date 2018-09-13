@@ -1,0 +1,49 @@
+.scroll-down-button {
+    height: 20vh;
+
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.flex-item {
+    flex: 0 0 50px;
+}
+
+#arrow {
+    width: 9vmin;
+    min-width: 60px;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+/* Bounce animation for arrow */
+
+@keyframes bounce {
+    from {
+      transform: translateY(3px);
+    }
+    to {
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(3px);
+    }
+    to {
+      transform: translateY(-8px);
+    }
+  }
+
+
+/* Medium and small screen sizes */
+@media all and (max-width: 600px) {
+    .scroll-down-button {
+        height: 10vh;
+    }
+}

@@ -1,0 +1,76 @@
+#project {
+    height: 100vh;
+    min-height: 400px;
+    background: #F0E9FF;
+}
+
+#background {
+    position: relative;
+}
+
+#background img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 90vh;
+    width: calc(90vh * 1.23px);
+    min-height: 200px;
+}
+
+#text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* 100 - scroll heigh - padding top height */
+    height: 80vh;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h3 {
+    padding-right: 50vw;
+}
+
+h1 {
+    padding-top: 40vh;
+
+    font-family: Montserrat;
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(30px + 2vw);
+    color: #A195BA;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat;
+    /* Medium */
+    font-weight: 500;
+    font-size: calc(10px + 1vw);
+    color: #6F6F71;
+    letter-spacing: 2.3px;
+}
+
+@media all and (max-width: 900px) {
+    #background img {
+        height: 60vh;
+        width: unset;
+        min-height: unset;
+    }
+
+    #text {
+        padding-top: 50px;
+        justify-content: flex-end;
+    }
+
+    h1, h3 {
+        padding: 0;
+    }
+}

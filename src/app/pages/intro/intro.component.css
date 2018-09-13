@@ -1,0 +1,40 @@
+.intro {
+    background-image: linear-gradient(135deg, #9717FF 0%, #5121FF 100%);
+    height: 100vh;
+    min-height: 400px;
+}
+
+.name {
+    position: absolute;
+    margin-left: 3vw;
+    width: 15vw;
+    min-width: 100px;
+}
+
+.intro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    /* 100 - menu height - scroll height */
+    height: 70vh;
+    min-height: 140px;
+    line-height: 1.3;
+}
+
+#intro-text {
+    /* Flex */
+    flex: 0 0 60vw;
+    align-self: auto;
+    /* Font */
+    font-family: 'Montserrat', sans-serif;
+    /* Bold */
+    font-weight: 700;
+    font-size: calc(30px + 3vw);
+    color: #FAFAFA;
+    text-align: left;
+    /* Force to be on the same line */
+    white-space: nowrap;
+}

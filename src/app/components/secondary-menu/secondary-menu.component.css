@@ -1,0 +1,54 @@
+.menu {
+    height: 10vh;
+}
+
+.menu-container {
+    /* Flex */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+
+    /* List */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container li a {
+    /* This makes the size of the bottom border bigger than text
+        but not so much */
+    padding: 0 1vw;
+    margin: 0 1vw;
+    text-decoration: none;
+    cursor: pointer;
+
+    /* Font */
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 2vmin; */
+    font-size:calc(5px + 1.3vmin);
+
+    /* Bold */
+    font-weight: 700;
+    /* Color */
+    color: #26293E;
+}
+
+#last-item {
+    padding-right: 2vw;
+}
+
+:host-context(.about-theme) .menu-container li a {
+    color: #FAFAFA;
+}
+
+:host-context(.about-theme) #about {
+    border-bottom: 0.15em solid #FFC91A;
+}
+
+:host-context(.myprojects-theme) #myprojects {
+    border-bottom: 0.15em solid #FFC91A;
+}
+
+
