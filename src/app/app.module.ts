@@ -19,6 +19,7 @@ import { InProgressComponent } from './components/in-progress/in-progress.compon
 import { ProjectPreviewMakeupComponent } from './components/project-preview-makeup/project-preview-makeup.component';
 import { SmallScrollDownComponent } from './components/small-scroll-down/small-scroll-down.component';
 import { ProjectPreviewGlowrComponent } from './components/project-preview-glowr/project-preview-glowr.component';
+import { ProjectPreviewAbcComponent } from './components/project-preview-abc/project-preview-abc.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -52,7 +53,8 @@ const appRoutes: Routes = [
     InProgressComponent,
     ProjectPreviewMakeupComponent,
     SmallScrollDownComponent,
-    ProjectPreviewGlowrComponent
+    ProjectPreviewGlowrComponent,
+    ProjectPreviewAbcComponent
   ],
   imports: [
     BrowserModule,
