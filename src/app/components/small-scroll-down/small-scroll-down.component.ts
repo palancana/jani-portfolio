@@ -14,7 +14,6 @@ export class SmallScrollDownComponent implements OnInit {
 
   scrollTo(anchor: string) {
     document.querySelector('#' + anchor).scrollIntoView({behavior: 'smooth', block: 'start'});
-
   }
 
 }
