@@ -1,0 +1,30 @@
+#project {
+    height: 100vh;
+    min-height: 400px;
+    background: #F0E9FF;
+}
+
+#background {
+    position: relative;
+}
+
+#background img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 90vh;
+    width: calc(90vh * 1.23px);
+    min-height: 200px;
+}
+
+#text {
+    height: 80vh;
+}
+
+@media all and (max-width: 600px) {
+    #background img {
+        height: 60vh;
+        width: unset;
+        min-height: unset;
+    }
+}
