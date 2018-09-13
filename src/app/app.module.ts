@@ -20,6 +20,7 @@ import { ProjectPreviewMakeupComponent } from './components/project-preview-make
 import { SmallScrollDownComponent } from './components/small-scroll-down/small-scroll-down.component';
 import { ProjectPreviewGlowrComponent } from './components/project-preview-glowr/project-preview-glowr.component';
 import { ProjectPreviewAbcComponent } from './components/project-preview-abc/project-preview-abc.component';
+import { GetInTouchComponent } from './components/get-in-touch/get-in-touch.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -54,7 +55,8 @@ const appRoutes: Routes = [
     ProjectPreviewMakeupComponent,
     SmallScrollDownComponent,
     ProjectPreviewGlowrComponent,
-    ProjectPreviewAbcComponent
+    ProjectPreviewAbcComponent,
+    GetInTouchComponent
   ],
   imports: [
     BrowserModule,
