@@ -17,6 +17,7 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
 import { AboutComponent } from './pages/about/about.component';
 import { InProgressComponent } from './components/in-progress/in-progress.component';
 import { ProjectPreviewMakeupComponent } from './components/project-preview-makeup/project-preview-makeup.component';
+import { SmallScrollDownComponent } from './components/small-scroll-down/small-scroll-down.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -48,7 +49,8 @@ const appRoutes: Routes = [
     ContactMeComponent,
     AboutComponent,
     InProgressComponent,
-    ProjectPreviewMakeupComponent
+    ProjectPreviewMakeupComponent,
+    SmallScrollDownComponent
   ],
   imports: [
     BrowserModule,
