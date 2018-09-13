@@ -24,7 +24,8 @@ video {
 h1  {
     font-family: 'Kalam';
     /* Bold */
-    font-size: 2em;
+    font-size: calc(15px + 2vw);
+
     color: #A894D1;
     text-align: center;
     letter-spacing: 0.5em;
