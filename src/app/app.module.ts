@@ -16,6 +16,11 @@ import { ProjectPreview3Component } from './components/project-preview3/project-
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { AboutComponent } from './pages/about/about.component';
 import { InProgressComponent } from './components/in-progress/in-progress.component';
+import { ProjectPreviewMakeupComponent } from './components/project-preview-makeup/project-preview-makeup.component';
+import { SmallScrollDownComponent } from './components/small-scroll-down/small-scroll-down.component';
+import { ProjectPreviewGlowrComponent } from './components/project-preview-glowr/project-preview-glowr.component';
+import { ProjectPreviewAbcComponent } from './components/project-preview-abc/project-preview-abc.component';
+import { GetInTouchComponent } from './components/get-in-touch/get-in-touch.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -46,7 +51,12 @@ const appRoutes: Routes = [
     ProjectPreview3Component,
     ContactMeComponent,
     AboutComponent,
-    InProgressComponent
+    InProgressComponent,
+    ProjectPreviewMakeupComponent,
+    SmallScrollDownComponent,
+    ProjectPreviewGlowrComponent,
+    ProjectPreviewAbcComponent,
+    GetInTouchComponent
   ],
   imports: [
     BrowserModule,

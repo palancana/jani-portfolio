@@ -1,0 +1,79 @@
+.scroll-down-button {
+    height: 20vh;
+
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    cursor: unset;
+}
+
+.flex-item {
+    flex: 0 0 50px;
+}
+
+.arrow {
+    width: 5vmin;
+    min-width: 40px;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+/* Bounce animation for arrow */
+
+@keyframes bounce {
+    from {
+      transform: translateY(3px);
+    }
+    to {
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(3px);
+    }
+    to {
+      transform: translateY(-8px);
+    }
+  }
+
+
+/* Medium and small screen sizes */
+@media all and (max-width: 900px) {
+    .scroll-down-button {
+        height: 15vh;
+    }
+}
+
+:host-context(.makeup-theme) #glowr {
+  display: none;
+  visibility: hidden;
+}
+
+:host-context(.makeup-theme) #abc{
+  display: none;
+  visibility: hidden;
+}
+
+:host-context(.glowr-theme) #makeup{
+  display: none;
+  visibility: hidden;
+}
+
+:host-context(.glowr-theme) #abc{
+  display: none;
+  visibility: hidden;
+}
+
+:host-context(.abc-theme) #makeup{
+  display: none;
+  visibility: hidden;
+}
+
+:host-context(.abc-theme) #glowr{
+  display: none;
+  visibility: hidden;
+}
