@@ -18,6 +18,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { InProgressComponent } from './components/in-progress/in-progress.component';
 import { ProjectPreviewMakeupComponent } from './components/project-preview-makeup/project-preview-makeup.component';
 import { SmallScrollDownComponent } from './components/small-scroll-down/small-scroll-down.component';
+import { ProjectPreviewGlowrComponent } from './components/project-preview-glowr/project-preview-glowr.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -50,7 +51,8 @@ const appRoutes: Routes = [
     AboutComponent,
     InProgressComponent,
     ProjectPreviewMakeupComponent,
-    SmallScrollDownComponent
+    SmallScrollDownComponent,
+    ProjectPreviewGlowrComponent
   ],
   imports: [
     BrowserModule,
