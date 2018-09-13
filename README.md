@@ -68,3 +68,4 @@ git push
 The first time you do a push in a new branch it will tell you something like: untracked changes on remote, run `git -set-upstream-branch bla bla bla`... Do that and... voilà.
 
 You can also do this steps following your guide using Atom.
+
