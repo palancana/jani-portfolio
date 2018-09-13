@@ -27,7 +27,6 @@
     /* 100 - scroll heigh - padding top height */
     height: 80vh;
     text-align: center;
-    padding-top: 15vh;
 }
 
 h1, h3 {
@@ -35,6 +34,8 @@ h1, h3 {
 }
 
 h1 {
+    padding-top: 40vh;
+
     font-family: Montserrat;
     /* Bold */
     font-weight: 700;
@@ -49,7 +50,7 @@ h3 {
     /* Medium */
     font-weight: 500;
     font-size: calc(10px + 1vw);
-    color: #6F6F71;
+    color: #A195BA;
     letter-spacing: 2.3px;
 }
 

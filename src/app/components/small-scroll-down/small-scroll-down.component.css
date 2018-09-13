@@ -42,7 +42,7 @@
 
 
 /* Medium and small screen sizes */
-@media all and (max-width: 600px) {
+@media all and (max-width: 900px) {
     .scroll-down-button {
         height: 15vh;
     }
