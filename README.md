@@ -1,3 +1,5 @@
+[![buddy pipeline](https://app.buddy.works/palancana/jani-portfolio/pipelines/pipeline/151715/badge.svg?token=5b17aa87db459fde64b191d32874d355bbf2b73e2e329047853cd39788057281 "buddy pipeline")](https://app.buddy.works/palancana/jani-portfolio/pipelines/pipeline/151715)
+
 # Portfolio
 
 <!-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
