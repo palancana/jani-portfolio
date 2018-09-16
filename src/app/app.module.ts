@@ -39,7 +39,6 @@ const appRoutes: Routes = [
 ];
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
-  observer: true,
   speed: 600,
   direction: 'vertical',
   mousewheel: {
@@ -48,7 +47,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   keyboard: {
     enabled: true
   },
-  hashNavigation: true
+  hashNavigation: true,
+  preventClicks: true
 };
 
 @NgModule({

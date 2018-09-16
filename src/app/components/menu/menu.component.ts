@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SwiperComponent, SwiperModule, SwiperDirective } from 'ngx-swiper-wrapper';
-import { SwiperEvents, SwiperEvent } from 'ngx-swiper-wrapper/dist/lib/swiper.interfaces';
+import { SwiperDirective } from 'ngx-swiper-wrapper';
 
 
 @Component({
