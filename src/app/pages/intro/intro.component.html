@@ -1,30 +1,44 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<div  class="swiper-container" [swiper]="config" [(index)]="index">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+  <div class="intro">
+      <div class="sticky-menu">
+          <img class="name" src="../../assets/name.svg">
+          <app-menu></app-menu>
+        </div>
 
-<div class="intro">
-    <div class="sticky-menu">
-        <img class="name" src="../../assets/name.svg">
-        <app-menu></app-menu>
+      <div class="intro-flex">
+        <div id="intro-text">
+          <p>Hello, <br> I'm Janira <br> UX/UI Designer</p>
+        </div>
       </div>
-
-    <div class="intro-flex">
-      <div id="intro-text">
-        <p>Hello, <br> I'm Janira <br> UX/UI Designer</p>
-      </div>
+      <app-scroll-down></app-scroll-down>
     </div>
-    <app-scroll-down></app-scroll-down>
-  </div>
+
+</div>
 
 
   <!-- id here is an anchor for scrolling -->
-  <div id="projects"></div>
-  <app-project-preview-makeup></app-project-preview-makeup>
-  <app-project-preview-glowr></app-project-preview-glowr>
-  <app-project-preview-abc></app-project-preview-abc>
+  <!-- <div id="projects"></div> -->
+  <div class="swiper-slide">
+    <div><app-project-preview-makeup></app-project-preview-makeup></div>
+  </div>
+  <div class="swiper-slide">
+    <div><app-project-preview-glowr></app-project-preview-glowr></div>
+  </div>
+  <div class="swiper-slide">
+    <div><app-project-preview-abc></app-project-preview-abc></div>
+  </div>
 
   <!-- <app-project-preview ></app-project-preview>
   <app-project-preview2></app-project-preview2>
   <app-project-preview3></app-project-preview3> -->
-
-  <div id="contact"></div>
+  <div class="swiper-slide">
+    <div id="contact"></div>
   <app-get-in-touch></app-get-in-touch>
+</div>
+
   <!-- <app-contact-me></app-contact-me> -->
+</div>
+</div>
