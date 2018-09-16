@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SwiperDirective } from 'ngx-swiper-wrapper';
 
 @Component({
   selector: 'app-scroll-down',
@@ -7,14 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScrollDownComponent implements OnInit {
 
-  constructor() { }
+  constructor(private swiper: SwiperDirective) { }
 
   ngOnInit() {
   }
 
-  scrollTo(anchor: string) {
-    document.querySelector('#' + anchor).scrollIntoView({behavior: 'smooth', block: 'start'});
-
+  scrollToNextSlide() {
+    this.swiper.nextSlide();
   }
 
 }
