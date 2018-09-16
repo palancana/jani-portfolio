@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat:400,600,700,800,800i,900|Roboto+Slab:700|Lato:900|Kalam');
+@import '~swiper/dist/css/swiper.min.css';
 
+.swiper-container, .swiper-slide {
+    width: 100vw;
+    height: 100vh;
+    }
