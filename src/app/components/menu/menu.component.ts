@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SwiperComponent, SwiperModule, SwiperDirective } from 'ngx-swiper-wrapper';
+import { SwiperEvents, SwiperEvent } from 'ngx-swiper-wrapper/dist/lib/swiper.interfaces';
 
 
 @Component({
@@ -8,13 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private swiper: SwiperDirective) {
+  }
 
   ngOnInit() {
   }
 
-  scrollTo(anchor: string) {
-    document.querySelector('#' + anchor).scrollIntoView({behavior: 'smooth', block: 'start'});
+  scrollTo(slideNumber: number) {
+    this.swiper.setIndex(slideNumber);
   }
+
 
 }

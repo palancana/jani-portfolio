@@ -43,8 +43,12 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   speed: 600,
   direction: 'vertical',
   mousewheel: {
-    releaseOnEdges: true
-  }
+    releaseOnEdges: true,
+  },
+  keyboard: {
+    enabled: true
+  },
+  hashNavigation: true
 };
 
 @NgModule({
