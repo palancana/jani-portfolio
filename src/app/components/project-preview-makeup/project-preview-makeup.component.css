@@ -1,7 +1,7 @@
 #project {
     height: 100vh;
     min-height: 400px;
-    background: #F0E9FF;
+    background: #F2D7F5;
 }
 
 #background {
@@ -42,7 +42,7 @@ h1 {
     /* Bold */
     font-weight: 700;
     font-size: calc(30px + 2vw);
-    color: #A195BA;
+    color: #A894D1;
     letter-spacing: 0;
     text-align: center;
 }
