@@ -24,6 +24,7 @@ import { SmallScrollDownComponent } from './components/small-scroll-down/small-s
 import { ProjectPreviewGlowrComponent } from './components/project-preview-glowr/project-preview-glowr.component';
 import { ProjectPreviewAbcComponent } from './components/project-preview-abc/project-preview-abc.component';
 import { GetInTouchComponent } from './components/get-in-touch/get-in-touch.component';
+import { ArticleHeaderComponent } from './components/article-header/article-header.component';
 
 // Routing
 const appRoutes: Routes = [
@@ -72,7 +73,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     SmallScrollDownComponent,
     ProjectPreviewGlowrComponent,
     ProjectPreviewAbcComponent,
-    GetInTouchComponent
+    GetInTouchComponent,
+    ArticleHeaderComponent
   ],
   imports: [
     BrowserModule,
