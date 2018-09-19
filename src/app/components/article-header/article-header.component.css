@@ -108,6 +108,15 @@ h3 {
     right: 15vw;
 }
 
+:host-context(.abc-theme) #project {
+    background: #FBEED5;
+}
+:host-context(.abc-theme) h1 {
+    color: #EDC06D;
+}
+:host-context(.abc-theme) #background img {
+    right: 4vw;
+}
 
 @media all and (max-width: 900px) {
 
@@ -134,6 +143,16 @@ h3 {
 
     :host-context(.glowr-theme) #background img {
         height: 38vh;
+        position: absolute;
+        top: unset;
+        position:absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    :host-context(.abc-theme) #background img {
+        height: 26vh;
         position: absolute;
         top: unset;
         position:absolute;
