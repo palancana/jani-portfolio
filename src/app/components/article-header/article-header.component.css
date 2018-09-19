@@ -23,9 +23,9 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 40vh;
+    height: calc(60vh - 50px);
     /* width: calc(90vh * 1.23px); */
-    min-height: 400px;
+    min-height: 350px;
 }
 
 #text {
@@ -36,7 +36,7 @@
     align-items: center;
     align-content: center;
     /* 100 - scroll heigh - padding top height */
-    height: 20vh;
+    height: 30vh;
     text-align: center;
     padding-right: 50vw;
 
