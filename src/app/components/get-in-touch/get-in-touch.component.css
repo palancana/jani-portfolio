@@ -4,6 +4,16 @@
     min-height: 400px;
 }
 
+:host-context(.makeup-theme) #contact-me {
+    background: #F2D7F5;
+}
+:host-context(.glowr-theme) #contact-me {
+    background: #E0E6FF;
+}
+:host-context(.abc-theme) #contact-me {
+    background: #FBEED5;
+}
+
 #flex-container {
     display: flex;
     align-items: center;
@@ -30,6 +40,16 @@ h1 {
     text-align: center;
 }
 
+:host-context(.makeup-theme) h1 {
+    color: #A894D1;;
+}
+:host-context(.glowr-theme) h1 {
+    color: #A9B0E8;
+}
+:host-context(.abc-theme) h1 {
+    color: #EDC06D;
+}
+
 h3 {
     font-family: Montserrat;
     /* Medium */
@@ -39,6 +59,7 @@ h3 {
     letter-spacing: 2.3px;
     text-align: center;
 }
+
 
 .social-icons {
     display: flex;
@@ -66,7 +87,7 @@ h3 {
 
     .social-icons img {
         max-width: 320px;
-        padding: 1em;
+        padding: 0.5em;
 
     }
 
