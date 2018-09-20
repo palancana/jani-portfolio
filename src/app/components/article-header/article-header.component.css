@@ -115,7 +115,7 @@ h3 {
     color: #EDC06D;
 }
 :host-context(.abc-theme) #background img {
-    right: 4vw;
+    right: 12vw;
 }
 
 @media all and (max-width: 900px) {
