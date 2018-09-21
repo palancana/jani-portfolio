@@ -82,10 +82,16 @@ h4 {
 }
 
 @media all and (max-width: 900px) {
+
     #background img {
-        height: 60vh;
-        width: unset;
-        min-height: unset;
+        height: unset;
+        padding-top: 20vh;
+        width: 80vw;
+        top: unset;
+        position:absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
 
     #text {
