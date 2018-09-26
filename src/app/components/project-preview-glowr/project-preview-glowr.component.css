@@ -81,11 +81,11 @@ h4 {
     margin: 10px;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 900px) and (max-width: 600px)  {
 
     #background img {
         height: unset;
-        padding-top: 20vh;
+        padding-top: 8vh;
         width: 80vw;
         top: unset;
         position:absolute;
@@ -103,4 +103,16 @@ h4 {
     .case-study-flex {
         padding-top: 10px;
     }
+}
+
+@media all and (max-width: 600px) {
+    #background img {
+        width: 90vw;
+        height: revert;
+    }
+
+    #text {
+        height: 72vh;
+    }
+
 }
