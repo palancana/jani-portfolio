@@ -105,3 +105,20 @@ h4 {
         padding-top: 10px;
     }
 }
+
+@media all and (max-width: 600px) {
+    #background img {
+        width: 73vw;
+        height: revert;
+    }
+
+    #text {
+        height: 72vh;
+    }
+
+    .case-study-flex {
+       display: none;
+    }
+
+    
+}
