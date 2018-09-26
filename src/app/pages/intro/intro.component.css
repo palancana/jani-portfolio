@@ -38,3 +38,17 @@
     /* Force to be on the same line */
     white-space: nowrap;
 }
+
+
+@media all and (max-width: 600px) {
+    .intro-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+        margin: 0;
+        /* 100 - menu height - scroll height */
+        height: 65vh;
+    }
+}
