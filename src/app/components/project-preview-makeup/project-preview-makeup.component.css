@@ -84,7 +84,7 @@ h4 {
 
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 900px) and (max-width: 600px){
     #background img {
         height: 60vh;
         width: unset;
@@ -101,5 +101,16 @@ h4 {
         padding-top: 10px;
     }
 
+
+}
+
+@media all and (max-width: 600px) {
+    #background img {
+        height: 40vh;
+    }
+
+    #text {
+        height: 72vh;
+    }
 
 }
